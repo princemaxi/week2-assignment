@@ -1,3 +1,13 @@
+// Simple Age Calculator
+// We define our variables birthyear and currentyear
+// we define a function called calculateAge() that takes two parameters, birthYear and currentYear. 
+// Inside the function, we check if the current year is less than the birth year 
+// (which would be an invalid input). If it is, we return an error message.
+// If the input is valid, we subtract the birthYear from the currentYear to calculate the age and return the 
+// result. 
+// Finally, we test the age calculator by providing sample values for birthYear and currentYear, and then we 
+// log the calculated age to the console.
+
 // defining our variables
 const birthYear = parseInt(prompt("Enter your birth year"));;
 const currentYear = parseInt(prompt("Enter current year"));;
@@ -19,7 +29,7 @@ function calculateAge(birthYear, currentYear) {
 
 
 // EVEN NUMBERS
-//  Define an array called numbersArray, which contains numbers from 1 to 20. 
+// Define an array called numbersArray, which contains numbers from 1 to 20. 
 // We then create a function called isEven() that takes a number as input and returns true if it's even and false otherwise. 
 // Inside the loop, we check each number in the array using the isEven() function and use console.log() to output only the even numbers 
 // (2, 4, 6, 8, 10) to the console.
